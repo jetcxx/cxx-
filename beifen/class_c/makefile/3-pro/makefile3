@@ -1,0 +1,5 @@
+var1 := main.o
+var1 += hello.o
+
+all:
+	@echo $(var1)

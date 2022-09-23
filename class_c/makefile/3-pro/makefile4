@@ -1,0 +1,5 @@
+var1 := abc
+var1 ?= def
+
+all:
+	@echo $(var1)
